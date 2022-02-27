@@ -12,7 +12,6 @@ c7 = nume * 7
 c8 = nume * 8
 c9 = nume * 9
 c10 = nume * 10
-#print('{} X 1 = {} \n {} X = {}\n {} X 3 = {} \n {} X 4 = {} \n {} X 5 = {} \n {} X 6 = {} \n {} X 7 = {} \n {} X 8 = {} \n {} X 9 = {} \n {} X 10 = {}' .format(nume, c1, nume, c2, nume, c3, nume, c4, nume, c5, nume, c6, nume, c7, nume, c8, nume, c9, nume, c10, ))
 print('{} X 1 = {}'.format(nume, c1))
 print('{} X 2 = {}'.format(nume, c2))
 print('{} X 3 = {}'.format(nume, c3))
