@@ -1,8 +1,7 @@
-from lib2to3.pgen2.token import DOUBLESTAR
-from ntpath import realpath
+from email.utils import collapse_rfc2231_value
 
 
-real =  float(input('Quantos reais você tem ? '))  
-dolar = float(input('Qual é o valor do dolar ? '))
-cal = real / dolar
-print('Com {} você consegue comprar {} dólares'.format(real, dolar))
+real =  float(input('Quantos reais você tem ? R$ '))  
+dolar = real / 5.16
+euro = real / 5.77
+print(f'Com {real} você consegue comprar {dolar:.2f} dólares ou {euro:.2f}')

@@ -1,5 +1,4 @@
-porce = float(input('Qual a porcentagem ? '))
-total = float(input('Qual o valor do produto ? '))
-calc1 = porce / 100
-valor = total * calc1
-print('{} porcento de {} é: {}'.format(porce, total, valor))
+preco = float(input('Qual o valor do produto ? R$ '))
+porcentagem = float(input('Qual a porcentagem ? '))
+calculo = preco - (preco * porcentagem / 100)
+print(f'O produto que custava R${preco}, na promoção com desconto de {porcentagem}% vai custar {calculo:.2f}')
