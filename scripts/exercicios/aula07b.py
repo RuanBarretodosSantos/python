@@ -1,6 +1,3 @@
-from re import S
-
-
 n1 = int(input('Um valor: '))
 n2 = int(input('Digite outro valor: '))
 s = n1 + n2

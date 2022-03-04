@@ -1,0 +1,7 @@
+entrada = str(input('Digite seu nome: ')).strip()
+nome = len(entrada.split() [0])
+n1 = len(entrada) - entrada.count(' ')
+print('Tudo em maiusculo:', entrada.upper())
+print('Tudo em minusculo:', entrada.lower())
+print(f'O nome {entrada} possui {n1} letras')
+print(f'O primeiro nome possui {nome} letras')
