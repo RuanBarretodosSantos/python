@@ -1,7 +1,7 @@
-distancia = int(input('Digite a distancia: '))
+distancia = float(input('Digite a distancia: '))
+print(f'Você está preste a iniciar uma viagem de {distancia} KM')
 if distancia >= 200:
-    calc = distancia * 0.45
-    print(f'O valor total é {calc}')
+    preco = distancia * 0.45
 else:
-    calc2 = distancia * 0.50
-    print(f'O valor da distancia é {calc2}')
+    preco = distancia * 0.50
+print(f'O valor da passasgem é R${preco:.2f}')
