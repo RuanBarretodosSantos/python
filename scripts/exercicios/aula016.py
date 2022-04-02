@@ -1,0 +1,11 @@
+lanche = ('Hambúrguer', 'Suco', 'Pizza', 'Pudim')
+# Tuplas são imutaveis
+print('=-' * 15)
+print(lanche[-2])
+print('=-' * 15)
+print(lanche[3])
+print('=-' * 15)
+print(lanche[0:2])
+print('=-' * 15)
+print(lanche[2:])
+print('=-' * 15)
